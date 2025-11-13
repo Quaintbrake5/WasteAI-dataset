@@ -4,10 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import tensorflow as tf
-from tensorflow.keras import layers, models, callbacks, regularizers, mixed_precision
+from tensorflow.keras import layers, models, callbacks, regularizers, mixed_precision # pyright: ignore[reportMissingImports]
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.utils.class_weight import compute_class_weight
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
+from tensorflow.keras.applications.mobilenet_v2 import preprocess_input # pyright: ignore[reportMissingImports]
 
 # ===============================================================
 # ⚙️ INTEL + MIXED PRECISION OPTIMIZATIONS
